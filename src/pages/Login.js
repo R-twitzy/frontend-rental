@@ -40,7 +40,7 @@ export default function Login() {
       })
   }
   return (
-    <div style={{ backgroundImage: `url(${background})`, height: '100vh' }}>
+    <div style={{ backgroundImage: `url(${background})`, height:'100vh', width:'100%'}}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="card mt-5 col-12 col-md-9 col-lg-7 col-xl-6" style={{ backgroundColor: 'rgba(255,255,255,0.25)' }}>
@@ -64,9 +64,11 @@ export default function Login() {
                     value={password} onChange={(ev) => setPassword(ev.target.value)} />
                 </div>
                 {/* Log in Button */}
-                <button type="submit" className="btn btn-success">
-                  Sign In
-                </button>
+                <div className="row justify-content-center">
+                  <button type="submit" className="col-8 btn btn-success mt-3 mb-2">
+                    Sign In
+                  </button>
+                </div>
               </form>
             </div>
           </div>
