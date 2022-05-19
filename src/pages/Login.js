@@ -40,9 +40,9 @@ export default function Login() {
       })
   }
   return (
-    <div style={{ backgroundImage: `url(${background})`, height:'100vh', width:'100%'}}>
+    <div style={{ backgroundImage: `url(${background})`, height: '100vh', width: '100%' }} className="fixed-top">
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mt-5">
           <div className="card mt-5 col-12 col-md-9 col-lg-7 col-xl-6" style={{ backgroundColor: 'rgba(255,255,255,0.25)' }}>
             {/* White Container */}
             {/* Main Heading */}
@@ -74,6 +74,9 @@ export default function Login() {
           </div>
         </div>
       </div>
+      <h6 className='text-secondary text-center fixed-bottom mb-4'>
+        <strong>Created by Walyul'ahdi Maulana Ramadhan in 2022</strong>
+      </h6>
     </div>
   )
 }
