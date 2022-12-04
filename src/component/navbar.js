@@ -4,7 +4,7 @@ export default function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div className="container-fluid">
-                    <b className="navbar-brand" href="#">Walyul RentCAr</b>
+                    <b className="navbar-brand" href="#">Walyul RentCar</b>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -16,27 +16,27 @@ export default function Navbar() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/siswa" className="nav-link active" aria-current="page">
-                                    Siswa
+                                <Link to="/mobil2" className="nav-link active" aria-current="page">
+                                    mobil2
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/pelanggaran" className="nav-link active" aria-current="page">
-                                    Pelanggaran
+                                <Link to="/karyawan" className="nav-link active" aria-current="page">
+                                    Karyawan
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/list-pelanggaran-siswa" className="nav-link active" aria-current="page">
-                                    List Pelanggaran Siswa
+                                <Link to="/pelanggan" className="nav-link active" aria-current="page">
+                                    Pelanggan
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/pelanggaran-siswa" className="nav-link active" aria-current="page">
-                                    Tambah Pelanggaran Siswa
+                                <Link to="/sewa" className="nav-link active" aria-current="page">
+                                    Sewa
                                 </Link>
                             </li>
                         </ul>
-                        <a class="nav-link h6" href="login.php">
+                        <a className="nav-link h6">
                             <Link to="/logout" className="nav-link align-text-bottom text-danger" aria-current="page">
                                 Logout
                             </Link>
